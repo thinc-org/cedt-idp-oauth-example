@@ -1,0 +1,4 @@
+export const SERVER_OAUTH_CLIENT_ID = process.env.OAUTH_CLIENT_ID;
+export const SERVER_OAUTH_CLIENT_SERECT = process.env.OAUTH_CLIENT_SECRET;
+export const SERVER_OAUTH_REDIRECT_URL = process.env.OAUTH_REDIRECT_URL;
+export const SERVER_OAUTH_DOMAIN_URL = process.env.OAUTH_DOMAIN_URL;
