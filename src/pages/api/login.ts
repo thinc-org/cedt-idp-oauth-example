@@ -14,7 +14,6 @@ export default async function handler(
   const code = req.body.code
 
   try {
-
     const _res = await axios.post(`${SERVER_OAUTH_DOMAIN_URL}/api/oauth/token`, {
       client_id: SERVER_OAUTH_CLIENT_ID,
       client_secret: SERVER_OAUTH_CLIENT_SERECT,
